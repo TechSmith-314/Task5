@@ -11,9 +11,9 @@ namespace Task5
 
             Console.WriteLine($"Имя: {firstName}\nФамилия: {lastName}");
 
-            string temporaryVar = firstName;
+            string temporaryVariable = firstName;
             firstName = lastName;
-            lastName = temporaryVar;
+            lastName = temporaryVariable;
 
             Console.WriteLine($"Имя: {firstName}\nФамилия: {lastName}");
         }
